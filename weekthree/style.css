@@ -2,17 +2,44 @@ body {
 	background-color: #34495e;
 	color: #ecf0f1;
 	font-size: 16px;
-	font-family: helvetica;
+	font-family: Verdana, Helvetica, sans-serif;
 	font-style: ;
 	text-align: center;
+	padding: 20px;
 }
 
 h1 {
-	font-weight: bold;
 	text-transform: uppercase;
+}
+
+img {
+	border: 5px solid #ecf0f1;
+}
+
+a {
+	color: #e74c3c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ecf0f1;
+}
+
+#title {
+	color: white;
 }
 
 #slogan {
 	font-style: italic;
 	color: #e74c3c;
+	font-size: 14px;
+}
+
+#main-text {
+	text-align: left;
+	font-size: 14px;
+}
+
+#active {
+	color: #ecf0f1;
 }
