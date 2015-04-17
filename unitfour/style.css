@@ -53,6 +53,10 @@ a:hover {
 	padding-left: 20px;
 }
 
+#main-text a {
+	color: #e74c3c;
+}
+
 #active {
 	color: #ecf0f1;
 }
