@@ -1,6 +1,4 @@
 body {
-	background-image: url(images/docbee.jpg);
-	background-repeat: repeat-x;
 	background-color: #34495e;
 	margin-top: 20px;
 	margin-right: 0;
@@ -10,6 +8,7 @@ body {
 	color: #ecf0f1;
 	font-size: 14px;
 	font-family: 'Bree Serif', serif;
+	text-align: center;
 }
 
 h1 {
@@ -18,14 +17,12 @@ h1 {
 	font-size: 46px;
 	background-color: #ecf0f1;
 	margin: 0;
-	text-align: center;
 }
 
 #nav {
 	font-family: 'Coda Caption', sans-serif;
 	font-size: 24px;
 	background-color: #bdc3c7;
-	text-align: center;
 }
 
 a {
@@ -35,6 +32,10 @@ a {
 
 a:hover {
 	color: #e74c3c;
+}
+
+img {
+	text-align: center;
 }
 
 #title {
@@ -48,9 +49,8 @@ a:hover {
 }
 
 #main-text {
-	text-align: left;
-	margin-top: 300px;
 	padding-left: 20px;
+	text-align: left;
 }
 
 #main-text a {
