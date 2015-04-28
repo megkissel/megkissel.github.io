@@ -1,0 +1,60 @@
+body {
+	background-color: #2980b9;
+	font-family: "Bree", Georgia, serif;
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+header {
+	background-color: #34495e;
+	padding: 5px;
+}
+
+h1 {
+	font-family: "Coda Caption";
+	text-transform: uppercase;
+	color: #f39c12;
+	font-size: 40px;
+	text-align: left;
+	
+}
+
+nav {
+	text-align: right;
+	font-family: "Coda Caption";
+}
+
+nav a {
+	color: #f1c40f;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: #d35400;
+}
+
+#wrapper {
+	background-color: #ecf0f1;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+}
+
+p {
+	padding: 10px;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-family: "Gloria Hallelujah", sans-serif;
+	font-size: 14px;
+}
+
+footer {
+	background-color: #34495e;
+	color: #2980b9;
+	text-align: right;
+	padding: 10px;
+	font-size: 12px;
+}
