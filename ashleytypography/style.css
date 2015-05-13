@@ -45,7 +45,21 @@ nav a:hover {
 }
 
 img {
+	display: block;
+	float: left;
 	padding: 10px;
+}
+
+img a:hover {
+	opacity: 50%;
+}
+
+#row1 {
+	width: 80%;
+}
+
+#row2 {
+	width: 80%;
 }
 
 footer {
@@ -55,6 +69,7 @@ footer {
 	padding: 20px;
 	margin: 0;
 	text-align: right;
+	clear: both;
 }
 
 
