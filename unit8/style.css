@@ -35,7 +35,7 @@ nav a {
 	float: right;
 	font-size: 2em;
 	display: block;
-	padding: 10px;
+	padding: .5em;
 }
 
 nav a:hover {
@@ -68,10 +68,6 @@ img {
 	padding: .5em 2em;
 }
 
-img:hover {
-	opacity: .8;
-}
-
 h2 {
 	color: #1abc9c;
 	font-weight: bold;
@@ -94,7 +90,7 @@ h3 {
 	font-size: 1.8em;
 	margin-bottom: .5em;
 	border-bottom: #1abc9c solid;
-	width: 20%;
+	width: 30%;
 }
 
 h4 {
@@ -130,9 +126,74 @@ footer a:hover {
 	text-align: right;
 }
 
-@media only and (max-width: 990px) {
+@media only screen and (max-width: 1030px) {
 	nav a {
 		float: left;
+		clear: both;
+		font-size: 1.5em;
+		padding: .25em;
+	}
+
+	nav a:hover {
+		border-bottom: 1.5px solid #1abc9c;
 	}
 
 }
+
+@media only screen and (max-width: 800px) {
+	img {
+		width: 80%;
+	}
+
+	.hide {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	header {
+		padding: 0;
+	}
+
+	h1 {
+		font-size: 2.8em;
+		padding: .5em;
+		border: none;
+	}
+
+	nav a {
+		background-color: #1abc9c;
+		width: 100%;	
+		padding: 0;
+		text-align: center;
+	}
+
+	nav a:hover {
+		color: #c0392b;
+	}
+
+	#main {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	img {
+		width: 100%;
+		padding: 0;
+		margin: none;
+	}
+
+	h4 {
+		text-align: center;
+		float: left;
+		display: block;
+		font-size: 1em;
+		padding: .5em;
+	}
+
+	#email {
+		left-margin: 25%;
+	}
+
+}
+
