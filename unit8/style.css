@@ -158,6 +158,18 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	#main h3 {
+		width: 80%;
+	}
+
 	img {
 		width: 80%;
 	}
@@ -171,7 +183,20 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 678px){
+	h1 {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 525px){
+	h1 {
+		font-size: 2.9em;
+	}
+
+}
+
+@media only screen and (max-width: 509px){
 	header {
 		padding: 0em;
 	}
@@ -198,6 +223,14 @@ footer {
 
 	nav a:hover {
 		color: #c0392b;
+	}
+
+	#active {
+		color: #c0392b;
+	}
+
+	h3 {
+		font-size: .5em;
 	}
 
 	#main {
