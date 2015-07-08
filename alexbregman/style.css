@@ -1,0 +1,190 @@
+body {
+	background-color: #fcfcfc;
+	font-size: 16px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #2b2b2b;
+}
+
+header {
+	background-color: #2b2b2b;
+	color: #fcfcfc;
+	padding: 2em;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+nav {
+	float: right;
+	font-size: 1.25em;
+	margin-top: 1em;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fcfcfc;
+	padding: .75em;
+}
+
+nav a:hover {
+	background-color: #36d7b7;
+	color: #22313f;
+}
+
+.active {
+	color: #36d7b7;
+}
+
+h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 3em;
+	float: left;
+	width: 50%;
+	font-weight: bolder;
+	color: #fcfcfc;
+}
+
+h2 {
+	clear: both;
+	padding-top: .5em;
+	color: #36d7b7;
+	font-size: 1.1em;
+}
+
+a {
+	text-decoration: none;
+	color: #36d7b7;
+}
+
+a:hover {
+	color: #22313f;
+}
+
+#main {
+	padding: 2em;
+}
+
+#col1 {
+	width: 66%;
+	float: left;
+	border: #7f8c8d solid 1px;
+	padding: .5em;
+	margin-bottom: 2em;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: .5em;
+	margin-bottom: 1em;
+}
+
+h4 {
+	color: #95a5a6;
+	margin-top: .5em;
+}
+
+p {
+	padding: .5em 0em;
+	line-height: 1.5em;
+}
+
+#blog {
+	font-weight: lighter;
+}
+
+#col2 {
+	width: 30%;
+	float: right;
+	border: #7f8c8d solid 1px;
+	margin-bottom: 2em;
+	text-align: center;
+	background-color: #ededed;
+}
+
+#col2 img {
+	width: 80%;
+	padding: .5em;
+}
+
+#category {
+	margin-left: 5em;
+}
+
+#category a {
+	text-decoration: none;
+	color: #fcfcfc;
+	background-color: #2b2b2b;
+	padding: .5em;
+	display: block;
+	width: 60%;
+	height: 2%;
+	text-align: center;
+	margin: .5em;
+}
+
+#category a:hover {
+	background-color: #36d7b7;
+	color: #22313f;
+}
+
+form {
+	padding: 2em;
+}
+
+#col2 h2 {
+	padding: 1em;
+	color: #22313f;
+}
+
+#follow {
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+#follow a {
+	font-size: 2em;
+	color: #22313f;
+	padding: .5em;
+}
+
+#follow a:hover {
+	color: #36d7b7;
+}
+
+footer {
+	clear: both;
+	background-color: #2b2b2b;
+	color: #95a5a6;
+	padding: 1em;
+	text-align: right;
+	font-size: .8em;
+}
+
+@media only screen and (max-width: 1055px) {
+	.hide {
+		display: none;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: .8em;
+	}
+
+	nav {
+		font-size: 1em;
+	}
+
+	#category {
+		width: 90%;
+		margin-left: 3em;
+	}
+
+	#follow a {
+		font-size: 1.4em;
+	}
+}
